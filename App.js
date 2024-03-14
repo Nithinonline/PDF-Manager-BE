@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: `https://pdf-manager-be-1.onrender.com`,
+    origin: `https://pdf-manager-two.vercel.app`,
     credentials: true,
 }))
 app.use("/uploads",express.static("uploads"))
